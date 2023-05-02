@@ -32,7 +32,7 @@ const Template: ComponentStory<typeof BlogCard> = ({
     ...args
 }) => (
     <BlogCard
-        settings={{ ...settings, type: args.type }}
+        settings={{ type: args.type }}
         content={content}
         onSetSingleBlog={onSetSingleBlog}
     />
